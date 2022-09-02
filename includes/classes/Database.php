@@ -10,7 +10,7 @@ class Database{
 
     public function __construct(){
         
-        $this->pdo = new PDO("mysql:host=localhost;dbname=problog", "blog_admin", "&CSxdzC3*Ra6Fgi");
+        $this->pdo = new PDO("mysql:host=localhost;dbname=phpblog", "blog_admin", "&CSxdzC3*Ra6Fgi");
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
         
     }
